@@ -1,0 +1,12 @@
+{
+  "name": "activity-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aktivko: a free browser party game for teams. Draw, describe or act out words.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx --yes serve -l 8080 .",
+    "test": "node --test"
+  }
+}
