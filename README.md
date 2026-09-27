@@ -33,7 +33,10 @@ It is a static site: HTML, CSS and plain JavaScript modules, no build step.
 ```sh
 npm start        # serves the folder on http://localhost:8080
 npm test         # rule and state machine tests (Node 20+)
+npm run e2e      # browser test: local games plus a 4-player online room
 ```
+
+The browser test needs `npm install` and a Chromium (`npx playwright install chromium`, or set `CHROME_PATH`). Set `BASE` to test another address, such as the live site.
 
 Any static file server works, since the pages use ES modules and can't be opened straight from the file system.
 

@@ -7,6 +7,10 @@
   "license": "MIT",
   "scripts": {
     "start": "npx --yes serve -l 8080 .",
-    "test": "node --test"
+    "test": "node --test",
+    "e2e": "node tests/e2e.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
   }
 }
